@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Landing Page</title>
+    <style>
+        /* Resetting default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #4CAF50 3px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin-right: 25px;
+        }
+
+        header ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            float: right;
+            margin-top: 10px;
+        }
+
+        header li {
+            display: inline;
+            margin-left: 5px;
+            padding: 0 10px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        nav {
+            float: left;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .showcase {
+            min-height: 400px;
+            background: url('college.jpg') no-repeat center center;
+            text-align: center;
+            color: #fff;
+            background-size: cover;
+            padding-top: 100px;
+        }
+
+        .showcase h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for better visibility */
+        }
+
+        .showcase p {
+            font-size: 1.5em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adding text shadow for better visibility */
+        }
+
+        .content {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+
+        .content h1 {
+            border-bottom: #333 3px solid;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            float: right;
+            width: 30%;
+            background: #f0f0f0;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            clear: both;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">College</span> Landing Page</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to Our College</h1>
+            <p>Start your journey towards success with us!</p>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit imperdiet orci sed condimentum. Nullam nec pharetra enim. Integer auctor placerat tortor, et maximus tortor dapibus a.</p>
+            <p>Curabitur consequat, neque ac vehicula rutrum, lorem enim dignissim nulla, nec tristique tortor elit sed magna. Aliquam id arcu vitae orci viverra scelerisque. Sed dictum dui vel metus aliquet, eget interdum sapien vestibulum.</p>
+        </div>
+    </section>
+
+    <aside class="sidebar">
+        <div class="container">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">Alumni</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 College Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
